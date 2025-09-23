@@ -5,7 +5,19 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero(data-aos="fade-right")
         span 3
-      h1 Titulo_de_primer_nivel
+      h1 Modelos de despliegue: nube publica, privada e hibrida
+    
+    separador 
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
+      h2 3.1 Uso de la nube publica
+
+    separador 
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
+      h2 3.2 Control y exclusividad
+
+    separador 
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
+      h2 3.3 Análisis de costos y seguridad en nube hibrida
 
 </template>
 

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 2
-      h1 Titulo_de_primer_nivel
+      h1 Modelos tradicionales de computación
 
 
 </template>
