@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Características de la computación en la nube',
     descripcionCurso:
-      'Ese componente aborda una visión integral y didáctica sobre la computación en la nube, abordando sus fundamentos, características principales y evolución histórica desde sus orígenes hasta la actualidad. Explica de forma clara los modelos de despliegue: nube pública, privada y híbrida, destacando sus ventajas, desventajas y aplicaciones prácticas, así como el control y exclusividad en cada modelo. Además, presenta los aspectos esenciales de la escalabilidad y flexibilidad que hacen posible la adaptación de recursos según la demanda. Se describen los principales servicios y proveedores de la nube, con énfasis en su uso cotidiano y educativo.',
+      'Este componente aborda las características de la computación en la nube, sus modelos tradicionales y de despliegue, así como la infraestructura que la soporta. El aprendiz reconoce la evolución histórica, la escalabilidad, la flexibilidad y los requisitos técnicos, comprendiendo también las consideraciones de seguridad y la administración de recursos en diferentes entornos de nube.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -37,19 +37,23 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Características de la nube',
+            titulo: 'Características principales',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Principales proveedores de servicios en la nube',
+            titulo: 'Evolución histórica de la computación en la nube',
             hash: 't_1_2',
           },
-          { numero: '1.3', titulo: 'Evolución histórica', hash: 't_1_3' },
-          { numero: '1.4', titulo: 'Acceso', hash: 't_1_4' },
+          { numero: '1.3', titulo: 'Acceso y formas de uso', hash: 't_1_3' },
+          {
+            numero: '1.4',
+            titulo: 'Escalabilidad y flexibilidad',
+            hash: 't_1_4',
+          },
           {
             numero: '1.5',
-            titulo: 'Escalabilidad y accesibilidad',
+            titulo: 'Principales proveedores de servicios en la nube',
             hash: 't_1_5',
           },
         ],
@@ -59,18 +63,38 @@ export default {
         numero: '2',
         titulo: 'Modelos tradicionales de computación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Infraestructura de modelos tradicionales',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Ventajas y desventajas de los modelos tradicionales',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Modelos de despliegue: nube publica, privada e hibrida',
+        titulo: 'Modelos de despliegue de la nube',
         desarrolloContenidos: true,
         subMenu: [
-          { numero: '3.1', titulo: 'Uso de la nube publica', hash: 't_3_1' },
-          { numero: '3.2', titulo: 'Control y exclusividad', hash: 't_3_2' },
+          {
+            numero: '3.1',
+            titulo: 'Nube pública y sus aplicaciones',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Nube privada: control y exclusividad',
+            hash: 't_3_2',
+          },
           {
             numero: '3.3',
-            titulo: 'Análisis de costos y seguridad en nube hibrida',
+            titulo: 'Nube híbrida: análisis de costos y seguridad',
             hash: 't_3_3',
           },
         ],
@@ -80,6 +104,28 @@ export default {
         numero: '4',
         titulo: 'Infraestructura en la nube',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Requisitos técnicos básicos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Componentes de la infraestructura en la nube',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Consideraciones de seguridad en la nube',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Administración y optimización de recursos',
+            hash: 't_4_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -131,97 +177,100 @@ export default {
     {
       tema: 'Computación en la nube',
       referencia:
-        'Tecnologia 4.0. (2022). ¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Servicios en la nube - Interoperabilidad</em> [Video]. YouTube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=MCKdahh2lSo&ab_channel=Tecnolog%C3%ADa4.0',
+      link: 'https://www.youtube.com/watch?v=jnyse9K-P7A',
     },
     {
-      tema: 'Escalabilidad y accesibilidad',
+      tema: 'Infraestructura de la nube',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Servicios en la nube - Interoperabilidad [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Especificaciones técnicas para la arquitectura tecnológica en nube: introducción</em> [Video]. YouTube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=jnyse9K-P7A&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+      link: 'https://www.youtube.com/watch?v=p2URc4zjtSg',
     },
   ],
   glosario: [
     {
-      termino: 'Almacenamiento en la nube',
+      termino: 'Administrador de recursos',
       significado:
-        'Servicio que permite guardar datos y archivos en servidores remotos accesibles vía internet.',
+        'persona o herramienta que supervisa, asigna y optimiza el uso de CPU, memoria, almacenamiento y red en la nube.',
     },
     {
-      termino: 'Aplicaciones en línea',
+      termino: '<em>Cloud computing</em> (Computación en la nube)',
       significado:
-        'Programas que se ejecutan directamente desde internet, sin necesidad de instalación local.',
-    },
-    {
-      termino: 'Cloud Computing (Computación en la nube)',
-      significado:
-        'Modelo que ofrece recursos, servicios y almacenamiento informático a través de una red pública o privada.',
-    },
-    {
-      termino: 'Elasticidad',
-      significado:
-        'Capacidad de la nube para aumentar o disminuir recursos automáticamente según demanda.',
+        'modelo de prestación de servicios informáticos a través de Internet, que permite acceso a recursos y aplicaciones bajo demanda.',
     },
     {
       termino: 'Escalabilidad',
       significado:
-        'Habilidad de una infraestructura para adaptarse creando o liberando recursos al crecer o disminuir la carga.',
+        'capacidad de aumentar o reducir recursos informáticos según la demanda, sin afectar el rendimiento del sistema.',
     },
     {
-      termino: 'Modelos de despliegue',
+      termino: 'Firewall',
       significado:
-        'Formas de organizar servicios en la nube: pública, privada y híbrida, según propiedad y acceso de recursos.',
+        'sistema de seguridad que controla el tráfico de red, bloqueando accesos no autorizados y protegiendo datos en la nube.',
     },
     {
-      termino: 'Multi-nube',
+      termino: 'Hipervisor',
       significado:
-        'Estrategia empresarial que utiliza múltiples servicios de nube pública y privada combinados para optimizar recursos.',
+        '<em>software</em> que permite crear y gestionar máquinas virtuales en un mismo servidor físico, optimizando el uso del <em>hardware</em>.',
     },
     {
-      termino: 'Seguridad Informática',
+      termino: 'Infraestructura como Servicio (IaaS)',
       significado:
-        'Conjunto de medidas y tecnologías para proteger sistemas, datos y redes frente a accesos no autorizados y ataques.',
+        'modelo de nube que proporciona recursos de <em>hardware</em> y almacenamiento virtualizados, permitiendo control total sobre sistemas operativos y aplicaciones.',
+    },
+    {
+      termino: 'Nube híbrida',
+      significado:
+        'modelo de nube que combina elementos de la nube pública y privada, equilibrando costos, seguridad y flexibilidad.',
+    },
+    {
+      termino: 'Nube privada',
+      significado:
+        'entorno de computación en la nube exclusivo para una organización, que garantiza control, seguridad y personalización.',
+    },
+    {
+      termino: 'Nube pública',
+      significado:
+        'modelo de nube donde los recursos y servicios están disponibles para cualquier usuario o empresa a través de Internet.',
     },
     {
       termino: 'Virtualización',
       significado:
-        'Tecnología que permite crear versiones virtuales de recursos informáticos, independizando el software del hardware.',
+        'tecnología que permite ejecutar múltiples sistemas operativos o aplicaciones en un mismo equipo físico mediante entornos virtuales.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Celaya Luna, A. (2013). Cloud: herramientas para trabajar en la nube. ICB Editores.',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/109471',
+        'Celaya Luna, A. (2013). <em>Cloud</em>: herramientas para trabajar en la nube. ICB Editores.',
+      link: '',
     },
     {
       referencia:
         'Ibáñez Carrasco, P. (2018). Informática I. Cengage Learning.',
-      link: 'https://ebooks7-24-com.bdigital.sena.edu.co/?il=7696',
+      link: '',
     },
     {
       referencia:
         'Ibáñez Carrasco, P. (2018). Informática II. Cengage Learning.',
-      link: 'https://ebooks7-24-com.bdigital.sena.edu.co/?il=8950',
+      link: '',
     },
     {
       referencia:
-        'Menchén, A. (2016). Software ofimático de productividad en la nube. Rama Editorial.',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/110036',
+        'Menchén, A. (2016). <em>Software</em> ofimático de productividad en la nube. Rama Editorial.',
+      link: '',
     },
     {
       referencia:
-        'Mosco, V. (2016). La nube: Big Data en un mundo turbulento. Biblioteca Buridán.',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/103946',
+        'Mosco, V. (2016). La nube: <em>Big Data</em> en un mundo turbulento. Biblioteca Buridán.',
+      link: '',
     },
     {
       referencia:
         'Postigo Palacios, A. (2020). Seguridad informática. Editorial Paraninfo.',
-      link: 'https://ebooks7-24-com.bdigital.sena.edu.co/?il=18108',
+      link: '',
     },
   ],
   creditos: [
@@ -230,7 +279,8 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
@@ -244,9 +294,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Javier Eduardo Díaz Machuca',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -254,17 +309,27 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Diseñador web',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador <em>web</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador <em>web</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Sebastian Trujillo Afanador',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Diego Fernando Velasco Güiza ',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -274,12 +339,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

@@ -137,7 +137,7 @@ export default {
           mensaje_correcto:
             'Correcto, esta capacidad se llama elasticidad y es una gran ventaja de la nube.',
           mensaje_incorrecto:
-            'Incorrecto, La cloud computing adapta sus recursos al uso real, optimizando costos y rendimiento.',
+            'Incorrecto, La <em>cloud computing</em> adapta sus recursos al uso real, optimizando costos y rendimiento.',
         },
         {
           id: 9,
@@ -149,7 +149,7 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, En la nube, el proveedor se encarga de la infraestructura, facilitando su uso sin comprar hardware.',
+            'Correcto, En la nube, el proveedor se encarga de la infraestructura, facilitando su uso sin comprar <em>hardware</em>.',
           mensaje_incorrecto:
             'Incorrecto, No necesitas instalar servidores físicos, el proveedor del servicio los administra por ti.',
         },
@@ -261,7 +261,7 @@ export default {
         {
           id: 17,
           texto:
-            'La cloud computing elimina la necesidad de tener un sistema operativo en tu dispositivo.',
+            'La <em>cloud computing</em> elimina la necesidad de tener un sistema operativo en tu dispositivo.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -286,7 +286,7 @@ export default {
           mensaje_correcto:
             'Excelente trabajo. el almacenamiento en la nube es virtualmente ilimitado y flexible.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, En la nube puedes ampliar almacenamiento sin necesidad de añadir hardware local.',
+            'Respuesta incorrecta, En la nube puedes ampliar almacenamiento sin necesidad de añadir <em>hardware</em> local.',
         },
         {
           id: 19,
@@ -314,7 +314,7 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Excelente trabajo. La nube ofrece servicios bajo demanda, evitando gastos grandes en hardware y permitiendo pagar solo por lo que se usa.',
+            'Excelente trabajo. La nube ofrece servicios bajo demanda, evitando gastos grandes en <em>hardware</em> y permitiendo pagar solo por lo que se usa.',
           mensaje_incorrecto:
             'Respuesta incorrecta, La nube permite reducir costos porque el proveedor se encarga de la infraestructura, evitando que las empresas tengan que invertir en equipos físicos propios.',
         },
