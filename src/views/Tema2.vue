@@ -91,7 +91,7 @@
               ul.lista-ul--color.mb-0(data-aos="fade-down")
                 li.mb-2
                   i.fas.fa-cloud
-                  | Control total el usuario o la empresa tienen dominio absoluto sobre el <em>hardware</em>, el <em>software</em> y los datos. Esto significa que pueden decidir cómo configurar sus equipos, qué programas instalar y cómo administrar la información, sin depender de terceros.
+                  p.mb-0 Control total el usuario o la empresa tienen dominio absoluto sobre el <em>hardware</em>, el <em>software</em> y los datos. Esto significa que pueden decidir cómo configurar sus equipos, qué programas instalar y cómo administrar la información, sin depender de terceros.
                 li.mb-2
                   i.fas.fa-cloud
                   | Mayor seguridad local al no estar conectados de forma obligatoria a Internet ni utilizar servicios de proveedores externos, los datos sensibles permanecen bajo resguardo interno, reduciendo riesgos asociados al acceso remoto o a vulneraciones en la nube.

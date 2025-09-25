@@ -122,25 +122,25 @@
                 p.mb-0 Con el auge de las mainframes, surgieron los primeros sistemas que permitían a varios usuarios conectarse a una computadora central mediante terminales. Este modelo de uso compartido maximizó recursos costosos y sentó las bases del acceso remoto.
             .row(numero="B" titulo="Década de 1970 – Virtualización")
               .col-12.mb-4.mb-md-0
-                p.mb-0 Década de 1970 – Virtualización: el desarrollo de máquinas virtuales permitió ejecutar múltiples entornos en una sola computadora física. Esta innovación hizo más eficiente el uso de <em>hardware</em> y abrió el camino hacia la gestión flexible de recursos, un principio esencial de la nube.
+                p.mb-0 El desarrollo de máquinas virtuales permitió ejecutar múltiples entornos en una sola computadora física. Esta innovación hizo más eficiente el uso de <em>hardware</em> y abrió el camino hacia la gestión flexible de recursos, un principio esencial de la nube.
             .row(numero="C" titulo="Década de 1990 – Expansión de Internet")
               .col-12.mb-4.mb-md-0
-                p.mb-0 Década de 1990 – Expansión de Internet: la masificación de Internet posibilitó que servicios y aplicaciones pudieran ofrecerse de forma remota a escala global. Aunque todavía limitados, estos servicios evidenciaron el potencial de un modelo distribuido de recursos.
+                p.mb-0 La masificación de Internet posibilitó que servicios y aplicaciones pudieran ofrecerse de forma remota a escala global. Aunque todavía limitados, estos servicios evidenciaron el potencial de un modelo distribuido de recursos.
             .row(numero="D" titulo="2006 – Amazon Web Services (AWS)")
               .col-12.mb-4.mb-md-0
-                p.mb-0 2006 – Amazon Web Services (AWS): AWS marcó un punto de inflexión al ofrecer servicios de infraestructura bajo demanda (IaaS). Este modelo permitió a empresas y usuarios acceder a almacenamiento y procesamiento sin necesidad de invertir en infraestructura propia.
+                p.mb-0 AWS marcó un punto de inflexión al ofrecer servicios de infraestructura bajo demanda (IaaS). Este modelo permitió a empresas y usuarios acceder a almacenamiento y procesamiento sin necesidad de invertir en infraestructura propia.
             .row(numero="E" titulo="Década de 2010 – Consolidación y diversificación")
               .col-12.mb-4.mb-md-0
-                p.mb-0 Década de 2010 – Consolidación y diversificación: empresas como Google, Microsoft e IBM expandieron la nube hacia nuevas áreas como inteligencia artificial, análisis de datos, bases de datos y entornos de desarrollo, consolidándola como pilar de la transformación digital.
+                p.mb-0 Empresas como Google, Microsoft e IBM expandieron la nube hacia nuevas áreas como inteligencia artificial, análisis de datos, bases de datos y entornos de desarrollo, consolidándola como pilar de la transformación digital.
             .row(numero="F" titulo="2015 en adelante – Modelos híbridos y multi-nube")
               .col-12.mb-4.mb-md-0
-                p.mb-0 2015 en adelante – Modelos híbridos y multi-nube: para responder a demandas de flexibilidad y seguridad, se adoptaron esquemas que combinan nubes públicas y privadas. Estos modelos permiten optimizar costos y cumplir con normativas más estrictas de protección de datos.
+                p.mb-0 Para responder a demandas de flexibilidad y seguridad, se adoptaron esquemas que combinan nubes públicas y privadas. Estos modelos permiten optimizar costos y cumplir con normativas más estrictas de protección de datos.
             .row(numero="G" titulo="2020-2025 – Automatización e inteligencia artificial")
               .col-12.mb-4.mb-md-0
-                p.mb-0 2020-2025 – Automatización e inteligencia artificial: la integración de IA, aprendizaje automático y <em>big data</em> dentro de la nube facilita desde sistemas predictivos hasta seguridad avanzada, impulsando soluciones más inteligentes y personalizadas.
+                p.mb-0 La integración de IA, aprendizaje automático y <em>big data</em> dentro de la nube facilita desde sistemas predictivos hasta seguridad avanzada, impulsando soluciones más inteligentes y personalizadas.
             .row(numero="H" titulo="Computación en el borde (Edge Computing)")
               .col-12.mb-4.mb-md-0
-                p.mb-0 Computación en el borde (Edge Computing): como complemento a la nube tradicional, esta tecnología acerca el procesamiento de datos al lugar donde se generan, reduciendo la latencia y mejorando el rendimiento en aplicaciones críticas como IoT, vehículos autónomos o realidad aumentada.
+                p.mb-0 Como complemento a la nube tradicional, esta tecnología acerca el procesamiento de datos al lugar donde se generan, reduciendo la latencia y mejorando el rendimiento en aplicaciones críticas como IoT, vehículos autónomos o realidad aumentada.
         .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')

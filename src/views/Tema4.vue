@@ -46,7 +46,7 @@
             .row.justify-content-center.mb-3
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img05.svg", alt="alt").img100.m-auto
-            h4.titulo-1 <em>Hardware</em> especializado
+            h4.titulo-1 <em>Hardware</em>&nbspespecializado
             p.mb-0 Se utilizan servidores de alto rendimiento, unidades de almacenamiento masivo y procesadores optimizados para manejar múltiples solicitudes de manera simultánea.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
@@ -144,7 +144,7 @@
                   | Cifrado de datos tanto en tránsito como en reposo.
                 li.mb-2
                   i.fas.fa-cloud
-                  | <em>Firewalls</em> virtuales y segmentación de redes para evitar accesos indebidos.
+                  p.mb-0 <em>Firewalls</em> virtuales y segmentación de redes para evitar accesos indebidos.
                 li.mb-2
                   i.fas.fa-cloud
                   | Gestión de identidades y accesos (IAM) con autenticación multifactor.
