@@ -122,10 +122,10 @@
         p(data-aos="fade-down") En conjunto, estos componentes crean un entorno confiable, flexible y escalable que soporta el crecimiento de las organizaciones, garantizando disponibilidad, rendimiento y seguridad en los servicios ofrecidos.
         .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-            .col-lg-8(data-aos="flip-up")
+            .col-lg-11(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema4/img15.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
-            .p-4
+            .px-2.py-3
               p En el ámbito educativo, por ejemplo, instituciones como el SENA requieren de esta infraestructura para sostener plataformas de formación virtual, videoconferencias, sistemas de gestión del aprendizaje y simuladores especializados, asegurando que los aprendices accedan sin interrupciones a los contenidos y herramientas de aprendizaje.
 
     separador 
@@ -201,10 +201,10 @@
           .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
               .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-                .col-lg-8(data-aos="flip-up")
+                .col-lg-11(data-aos="flip-up")
                   img(src='@/assets/curso/temas/tema4/img18.svg' alt="Imagen decorativa")(style= "width: 100%")
               .tarjeta.tarjeta--C03
-                .p-4
+                .px-2.py-3
                   p En el SENA, la implementación de la nube implica proteger datos académicos, resultados de evidencias y la información personal de aprendices e instructores. Para ello, se aplican controles de acceso con autenticación multifactor, políticas de privilegio mínimo en las plataformas educativas y planes de recuperación ante incidentes. De esta manera, se garantiza la continuidad del aprendizaje virtual, evitando filtraciones o manipulaciones indebidas de la información institucional.
     separador 
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
@@ -254,10 +254,10 @@
       .col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-            .col-lg-8(data-aos="flip-up")
+            .col-lg-10(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema4/img21.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
-            .p-4
+            .px-0.py-4
               p Durante los procesos de inscripción en el SENA, miles de aprendices acceden simultáneamente a las plataformas virtuales. Gracias a la escalabilidad automática y al monitoreo constante de recursos, es posible evitar caídas del sistema y garantizar un acceso fluido. Además, mediante políticas de respaldo y auditorías de consumo, se optimizan los costos operativos, asegurando que los recursos tecnológicos estén disponibles justo cuando más se necesitan.
 
 </template>

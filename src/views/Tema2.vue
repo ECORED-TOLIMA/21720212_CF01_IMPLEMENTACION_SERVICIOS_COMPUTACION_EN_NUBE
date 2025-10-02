@@ -53,7 +53,7 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema2/img06.svg' alt='AvatarTop')
-        p.text-center(data-aos="fade-down") <b>Dispositivos de entrada</b> y salida como <b>teclado</b>, monitor, impresora o escáner, que permiten la interacción directa con el sistema y el aprovechamiento de sus funciones.
+        p.text-center(data-aos="fade-down") <b>Dispositivos de entrada y salida</b> como teclado, monitor, impresora o escáner, que permiten la interacción directa con el sistema y el aprovechamiento de sus funciones.
     
     .row.justify-content-center.mb-0
       .col-12
@@ -62,7 +62,7 @@
             p(data-aos="fade-down") Este modelo, aunque garantiza control total sobre los recursos, implica costos elevados en adquisición, mantenimiento, consumo energético y actualización tecnológica. Además, su escalabilidad es limitada, ya que para ampliar la capacidad se requiere invertir en nuevos equipos o infraestructura física.
             .tarjeta.tarjeta--C02.p-4
               .row.justify-content-center.align-items-center
-                .col-auto.col-2
+                .col-lg-auto.col-2
                   figure(data-aos="fade-up")
                     img(src='@/assets/curso/temas/tema2/img07.svg', alt='Imagen decorativa')
                 .col-lg-10.col-10

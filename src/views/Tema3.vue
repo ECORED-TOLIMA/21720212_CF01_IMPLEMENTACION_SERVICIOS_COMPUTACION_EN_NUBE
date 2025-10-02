@@ -105,10 +105,10 @@
           .col-12.mb-4.mb-lg-0(data-aos="fade-left")
             .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
               .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-                .col-lg-8(data-aos="flip-up")
+                .col-lg-12(data-aos="flip-up")
                   img(src='@/assets/curso/temas/tema3/img10.svg' alt="Imagen decorativa")(style= "width: 100%")
               .tarjeta.tarjeta--C03
-                .p-4
+                .px-2.py-3
                   p Una empresa de comercio electrónico que maneja gran cantidad de transacciones diarias, puede utilizar Amazon Web Services (AWS) en la modalidad de nube pública para alojar su página web y gestionar su base de datos de clientes.
                   p Gracias a esta solución, la empresa evita invertir en servidores propios, que resultarían costosos de adquirir y mantener. Al mismo tiempo, obtiene la posibilidad de escalar rápidamente su capacidad de almacenamiento y procesamiento en temporadas de alta demanda, como promociones o fechas especiales de ventas.
                   p El uso de la nube pública también le permite mejorar la seguridad y disponibilidad de su plataforma, ya que los proveedores implementan sistemas de respaldo, balanceo de cargas y monitoreo constante, asegurando la continuidad del servicio sin que la organización tenga que destinar personal técnico especializado para estas tareas.
@@ -202,10 +202,10 @@
       .col-lg-10.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-            .col-lg-8(data-aos="flip-up")
+            .col-lg-11(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema3/img16.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
-            .p-4
+            .py-4
               p Una entidad de salud puede implementar una nube privada para gestionar historiales clínicos electrónicos de sus pacientes. De esta forma, asegura que la información se almacene en un entorno exclusivo, con protocolos de seguridad personalizados y cumpliendo con las regulaciones de protección de datos del sector salud. Gracias a este modelo, la institución puede controlar directamente quién accede a los registros, reducir riesgos de filtración y garantizar la confidencialidad de la información médica.
     separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
@@ -285,10 +285,10 @@
       .col-lg-10.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-            .col-lg-8(data-aos="flip-up")
+            .col-lg-11(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema3/img24.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
-            .p-4
+            .px-2.py-3
               p El SENA podría implementar una nube híbrida para alojar sus plataformas de formación virtual. En este modelo, los datos sensibles relacionados con la gestión académica, matrículas y evaluaciones se mantendrían en una nube privada, garantizando control y seguridad. Al mismo tiempo, los contenidos de aprendizaje, como videos, foros o actividades interactivas, podrían alojarse en una nube pública, lo que permitiría un acceso masivo, flexible y con menor costo de almacenamiento. De esta manera, la institución optimizaría sus recursos, protegería la información confidencial de los aprendices y aseguraría la continuidad de sus servicios educativos en todo el país.
 </template>
 

@@ -83,7 +83,7 @@
             p(data-aos="fade-down") Además de estas características, la nube ofrece ventajas prácticas en la vida diaria y profesional. Permite almacenar y organizar documentos, imágenes y contactos, compartirlos con facilidad y trabajar en colaboración en tiempo real. Gracias a sus aplicaciones en línea, es posible crear y editar textos, hojas de cálculo y presentaciones sin necesidad de instalar <em>software</em> especializado, lo que optimiza el trabajo individual y en equipo.
             .tarjeta.tarjeta--C02.p-4
               .row.justify-content-center.align-items-center
-                .col-auto.col-2
+                .col-2
                   figure(data-aos="fade-up")
                     img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imagen decorativa')
                 .col-lg-10.col-10
@@ -112,38 +112,39 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
       h2 1.2 Evolución histórica de la computación en la nube
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(style="display: flex; width: 100%; margin: auto;")
-        .col-lg-8.col-12.mb-5.mb-md-0.order-lg-1.order-2.mb-lg-0
-          p(data-aos="fade-down") La evolución de la computación en la nube se ha desarrollado a lo largo de varias décadas, marcada por hitos tecnológicos que transformaron la forma en que las personas y las organizaciones almacenan, procesan y acceden a la información:
-          LineaTiempoD.color-acento-botones.especial
-            .row(numero="A" titulo="Décadas de 1950 y 1960 – Sistemas de tiempo compartido")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 Con el auge de las mainframes, surgieron los primeros sistemas que permitían a varios usuarios conectarse a una computadora central mediante terminales. Este modelo de uso compartido maximizó recursos costosos y sentó las bases del acceso remoto.
-            .row(numero="B" titulo="Década de 1970 – Virtualización")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 El desarrollo de máquinas virtuales permitió ejecutar múltiples entornos en una sola computadora física. Esta innovación hizo más eficiente el uso de <em>hardware</em> y abrió el camino hacia la gestión flexible de recursos, un principio esencial de la nube.
-            .row(numero="C" titulo="Década de 1990 – Expansión de Internet")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 La masificación de Internet posibilitó que servicios y aplicaciones pudieran ofrecerse de forma remota a escala global. Aunque todavía limitados, estos servicios evidenciaron el potencial de un modelo distribuido de recursos.
-            .row(numero="D" titulo="2006 – Amazon Web Services (AWS)")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 AWS marcó un punto de inflexión al ofrecer servicios de infraestructura bajo demanda (IaaS). Este modelo permitió a empresas y usuarios acceder a almacenamiento y procesamiento sin necesidad de invertir en infraestructura propia.
-            .row(numero="E" titulo="Década de 2010 – Consolidación y diversificación")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 Empresas como Google, Microsoft e IBM expandieron la nube hacia nuevas áreas como inteligencia artificial, análisis de datos, bases de datos y entornos de desarrollo, consolidándola como pilar de la transformación digital.
-            .row(numero="F" titulo="2015 en adelante – Modelos híbridos y multi-nube")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 Para responder a demandas de flexibilidad y seguridad, se adoptaron esquemas que combinan nubes públicas y privadas. Estos modelos permiten optimizar costos y cumplir con normativas más estrictas de protección de datos.
-            .row(numero="G" titulo="2020-2025 – Automatización e inteligencia artificial")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 La integración de IA, aprendizaje automático y <em>big data</em> dentro de la nube facilita desde sistemas predictivos hasta seguridad avanzada, impulsando soluciones más inteligentes y personalizadas.
-            .row(numero="H" titulo="Computación en el borde (Edge Computing)")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 Como complemento a la nube tradicional, esta tecnología acerca el procesamiento de datos al lugar donde se generan, reduciendo la latencia y mejorando el rendimiento en aplicaciones críticas como IoT, vehículos autónomos o realidad aumentada.
-        .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
-          figure
-            img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-12
+        .row.justify-content-center
+          .col-lg-8.col-12.mb-5.mb-md-0.order-lg-1.order-2.mb-lg-0
+            p(data-aos="fade-down") La evolución de la computación en la nube se ha desarrollado a lo largo de varias décadas, marcada por hitos tecnológicos que transformaron la forma en que las personas y las organizaciones almacenan, procesan y acceden a la información:
+            LineaTiempoD.color-acento-botones.especial
+              .row(numero="A" titulo="Décadas de 1950 y 1960 – Sistemas de tiempo compartido")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 Con el auge de las mainframes, surgieron los primeros sistemas que permitían a varios usuarios conectarse a una computadora central mediante terminales. Este modelo de uso compartido maximizó recursos costosos y sentó las bases del acceso remoto.
+              .row(numero="B" titulo="Década de 1970 – Virtualización")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 El desarrollo de máquinas virtuales permitió ejecutar múltiples entornos en una sola computadora física. Esta innovación hizo más eficiente el uso de <em>hardware</em> y abrió el camino hacia la gestión flexible de recursos, un principio esencial de la nube.
+              .row(numero="C" titulo="Década de 1990 – Expansión de Internet")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 La masificación de Internet posibilitó que servicios y aplicaciones pudieran ofrecerse de forma remota a escala global. Aunque todavía limitados, estos servicios evidenciaron el potencial de un modelo distribuido de recursos.
+              .row(numero="D" titulo="2006 – Amazon Web Services (AWS)")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 AWS marcó un punto de inflexión al ofrecer servicios de infraestructura bajo demanda (IaaS). Este modelo permitió a empresas y usuarios acceder a almacenamiento y procesamiento sin necesidad de invertir en infraestructura propia.
+              .row(numero="E" titulo="Década de 2010 – Consolidación y diversificación")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 Empresas como Google, Microsoft e IBM expandieron la nube hacia nuevas áreas como inteligencia artificial, análisis de datos, bases de datos y entornos de desarrollo, consolidándola como pilar de la transformación digital.
+              .row(numero="F" titulo="2015 en adelante – Modelos híbridos y multi-nube")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 Para responder a demandas de flexibilidad y seguridad, se adoptaron esquemas que combinan nubes públicas y privadas. Estos modelos permiten optimizar costos y cumplir con normativas más estrictas de protección de datos.
+              .row(numero="G" titulo="2020-2025 – Automatización e inteligencia artificial")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 La integración de IA, aprendizaje automático y <em>big data</em> dentro de la nube facilita desde sistemas predictivos hasta seguridad avanzada, impulsando soluciones más inteligentes y personalizadas.
+              .row(numero="H" titulo="Computación en el borde (Edge Computing)")
+                .col-12.mb-4.mb-md-0
+                  p.mb-0 Como complemento a la nube tradicional, esta tecnología acerca el procesamiento de datos al lugar donde se generan, reduciendo la latencia y mejorando el rendimiento en aplicaciones críticas como IoT, vehículos autónomos o realidad aumentada.
+          .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
     
     .row.justify-content-center.mb-0
       .col-lg-10.col-sm-10.col-12.mb-4(data-aos="fade-right")
@@ -164,7 +165,7 @@
             p(data-aos="fade-down") El acceso a la computación en la nube es sencillo y está diseñado para que cualquier persona pueda utilizar sus servicios sin necesidad de conocimientos técnicos avanzados. Para acceder, lo único que se necesita es una conexión a Internet y un dispositivo, como una computadora, tableta o teléfono móvil.
             .tarjeta.tarjeta--C02.p-4
               .row.justify-content-center.align-items-center
-                .col-auto.col-2
+                .col-2
                   figure(data-aos="fade-up")
                     img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
                 .col-lg-10.col-10
@@ -211,8 +212,8 @@
             tbody
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 1
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Abrir el navegador web en el dispositivo.
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Abrir el navegador web en el dispositivo.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Abrir el navegador <em>web</em> en el dispositivo.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Abrir el navegador <em>web</em> en el dispositivo.
               tr
                 td.text-bold(data-aos="fade-down") 2
                 td(data-aos="fade-down") Escribir en la barra de direcciones: drive.google.com
@@ -250,10 +251,10 @@
       .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b.d-flex.align-items-center.p-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-            .col-lg-8
+            .col-lg-10
               img(src='@/assets/curso/temas/tema1/img18.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
-            .py-4
+            .px-0.py-4
               p.mb-0 Un aprendiz puede guardar sus apuntes en Google Drive desde el computador de su casa, revisarlos en el celular camino a clase y, al mismo tiempo, compartirlos con sus compañeros para que todos trabajen sobre el mismo documento en tiempo real.
 
     separador 
