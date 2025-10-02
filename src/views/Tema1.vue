@@ -271,7 +271,7 @@
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')
               .col-lg-10.col-10
-                p.mb-0(data-aos="fade-down") Existen dos tipos principales de escalabilidad. La escalabilidad vertical aumenta la capacidad de un recurso, por ejemplo, añadiendo más potencia a un servidor existente. La escalabilidad horizontal consiste en agregar más recursos similares, como servidores adicionales para distribuir la carga de trabajo. La nube integra ambas estrategias para ajustarse a demandas crecientes o fluctuantes.
+                p.mb-0(data-aos="fade-down") Existen dos tipos principales de escalabilidad. La <b>escalabilidad vertical</b> aumenta la capacidad de un recurso, por ejemplo, añadiendo más potencia a un servidor existente. La <b>escalabilidad horizontal</b> consiste en agregar más recursos similares, como servidores adicionales para distribuir la carga de trabajo. La nube integra ambas estrategias para ajustarse a demandas crecientes o fluctuantes.
           
           .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0.d-flex
             .row.justify-content-center(data-aos="fade-up")
@@ -281,10 +281,10 @@
     
     .tarjeta.tarjeta--C02.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-auto.col-2
+        .col-lg-1.col-2
           figure(data-aos="fade-up")
             img(src='@/assets/curso/temas/tema1/img20.svg', alt='Imagen decorativa')
-        .col-lg-10.col-10
+        .col-lg-11.col-10
           p.mb-0(data-aos="fade-down") Adicionalmente, la nube ofrece elasticidad, que permite escalar automáticamente sin intervención humana, ajustando los recursos según el volumen de trabajo y garantizando eficiencia en rendimiento y costos. También incorpora sistemas de equilibrio de cargas, los cuales distribuyen las tareas entre varios servidores para prevenir sobrecargas y mantener un funcionamiento continuo.
     
     p.mb-5(data-aos="fade-down") A continuación, se presentan los ejemplos de plataformas con escalabilidad y flexibilidad:
@@ -329,35 +329,35 @@
                 th(data-aos="fade-down")(style= "width: 50%") Descripción
             tbody
               tr
-                td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Conexión a internet estable
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Necesitas una red rápida y confiable para usar la nube sin problemas de acceso o interrupciones.
+                td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Conexión a Internet estable
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Una red rápida y confiable para evitar interrupciones de acceso.
               tr
                 td.text-bold(data-aos="fade-down") Dispositivos compatibles
-                td(data-aos="fade-down") Computadoras, tabletas o teléfonos que puedan conectarse a internet y usar aplicaciones en la nube.
+                td(data-aos="fade-down") Computadoras, tabletas o teléfonos con acceso a Internet y soporte de aplicaciones en la nube.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Navegadores y sistemas actualizados
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Programas como Google Chrome o Edge deben estar actualizados para mayor seguridad y compatibilidad.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Programas como Google Chrome o Edge en sus últimas versiones para mayor seguridad y compatibilidad.
               tr
                 td.text-bold(data-aos="fade-down") Seguridad informática
-                td(data-aos="fade-down") Tener antivirus y cortafuegos para proteger tus datos y evitar ataques cuando utilizas la nube.
+                td(data-aos="fade-down") Uso de antivirus y cortafuegos para proteger datos y prevenir ataques.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Conocimientos básicos en redes
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Saber cómo funcionan las conexiones a internet para entender mejor cómo usar y solucionar problemas en la nube.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Comprender el funcionamiento de las conexiones a Internet para un mejor uso y solución de problemas.
               tr
                 td.text-bold(data-aos="fade-down") Virtualización
-                td(data-aos="fade-down") Tecnología que permite usar múltiples sistemas operativos o aplicaciones en un solo equipo físico o servidor.
+                td(data-aos="fade-down") Tecnología que permite ejecutar múltiples sistemas o aplicaciones en un solo equipo o servidor.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Almacenamiento escalable
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Capacidad de aumentar o reducir espacio para guardar archivos según lo que necesites en cada momento.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Capacidad de aumentar o reducir espacio según las necesidades.
               tr
                 td.text-bold(data-aos="fade-down") Herramientas de gestión
-                td(data-aos="fade-down") Programas que ayudan a administrar recursos de forma sencilla y automática sin complicaciones técnicas.
+                td(data-aos="fade-down") Programas que facilitan la administración automatizada de recursos.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Potencia de procesamiento
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Suficiente capacidad de cálculo para ejecutar programas o procesar datos en la nube sin retrasos.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Recursos suficientes para ejecutar aplicaciones o procesar datos sin retrasos.
               tr
                 td.text-bold(data-aos="fade-down") Protocolos y medidas de seguridad
-                td(data-aos="fade-down") Sistemas que aseguran que solo tú y quienes autorices puedan acceder a tu información en la nube.
+                td(data-aos="fade-down") Sistemas que aseguran el acceso restringido únicamente a usuarios autorizados.
     
     .row.justify-content-center.mb-0
       .col-12
@@ -373,7 +373,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
       h2 1.5 Principales proveedores de servicios en la nube
     
-    p.mb-5(data-aos="fade-down") 
+    p.mb-5(data-aos="fade-down") En el mercado existen diferentes proveedores de servicios en la nube que ofrecen soluciones adaptadas a las necesidades de empresas, instituciones educativas y usuarios individuales. Cada uno se distingue por su enfoque, variedad de herramientas y ventajas específicas, lo que permite a las personas seleccionar la plataforma más adecuada para sus proyectos, actividades académicas o requerimientos personales.
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12

@@ -8,7 +8,7 @@
     
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-12.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis se describe la computación en la nube y su relación con los modelos tradicionales, destacando sus características, evolución y formas de acceso. Se presentan los distintos modelos de despliegue como pública, privada e híbrida, así como sus ventajas, limitaciones y aplicaciones prácticas. Asimismo, se aborda la infraestructura necesaria para su funcionamiento, incluyendo requisitos técnicos, componentes físicos y virtuales, seguridad y administración de recursos.")
       .col-auto

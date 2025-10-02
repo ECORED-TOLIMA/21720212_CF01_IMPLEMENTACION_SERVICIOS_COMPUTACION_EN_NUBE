@@ -22,9 +22,9 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
       h2 4.1 Requisitos técnicos básicos
     
-    p.mb-5(data-aos="fade-down") Para que una infraestructura de nube opere de manera eficiente, es necesario contar con condiciones mínimas que aseguren conectividad, estabilidad y disponibilidad de los servicios. Estos requisitos permiten que las aplicaciones funcionen sin interrupciones y que los usuarios tengan una experiencia fluida. Entre los principales se encuentran:
+    p.mb-4(data-aos="fade-down") Para que una infraestructura de nube opere de manera eficiente, es necesario contar con condiciones mínimas que aseguren conectividad, estabilidad y disponibilidad de los servicios. Estos requisitos permiten que las aplicaciones funcionen sin interrupciones y que los usuarios tengan una experiencia fluida. Entre los principales se encuentran:
     
-    .row.justify-content-center.align-items-center(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema4/img02.png", alt="alt").img400.m-auto
@@ -46,14 +46,14 @@
             .row.justify-content-center.mb-3
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img05.svg", alt="alt").img100.m-auto
-            h4.titulo-1 <em>Hardware</em>&nbspespecializado
+            h4.titulo-1 <em>Hardware</em> especializado
             p.mb-0 Se utilizan servidores de alto rendimiento, unidades de almacenamiento masivo y procesadores optimizados para manejar múltiples solicitudes de manera simultánea.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img06.svg", alt="alt").img100.m-auto
             h4.titulo-1 Redes de comunicación robustas
-            p.mb-0 El uso de routers, switches y equilibradores de carga permite distribuir el tráfico entre diferentes servidores, mejorando la eficiencia y reduciendo tiempos de respuesta.
+            p.mb-0 El uso de <em>routers</em>, switches y equilibradores de carga permite distribuir el tráfico entre diferentes servidores, mejorando la eficiencia y reduciendo tiempos de respuesta.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-6.col-lg-8
@@ -97,7 +97,7 @@
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
           h4.text-center Redes
-          p Incluyen equipos físicos como routers y switches, así como redes definidas por <em>software</em> (SDN), que proporcionan conexiones seguras, rápidas y gestionables de forma centralizada, incluso a nivel global.
+          p Incluyen equipos físicos como <em>routers</em> y switches, así como redes definidas por <em>software</em> (SDN), que proporcionan conexiones seguras, rápidas y gestionables de forma centralizada, incluso a nivel global.
         .tarjeta.tarjeta--BG01.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
@@ -119,7 +119,7 @@
     
     .row.justify-content-center.mb-0
       .col-lg-10.col-12.mb-4.mb-lg-0(data-aos="fade-left")
-        p.mb-5(data-aos="fade-down") En conjunto, estos componentes crean un entorno confiable, flexible y escalable que soporta el crecimiento de las organizaciones, garantizando disponibilidad, rendimiento y seguridad en los servicios ofrecidos.
+        p(data-aos="fade-down") En conjunto, estos componentes crean un entorno confiable, flexible y escalable que soporta el crecimiento de las organizaciones, garantizando disponibilidad, rendimiento y seguridad en los servicios ofrecidos.
         .tarjeta-avatar-b.d-flex.align-items-center.py-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
             .col-lg-8(data-aos="flip-up")

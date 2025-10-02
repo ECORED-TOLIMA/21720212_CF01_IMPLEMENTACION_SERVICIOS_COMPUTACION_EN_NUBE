@@ -53,7 +53,7 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema2/img06.svg' alt='AvatarTop')
-        p.text-center(data-aos="fade-down") <b>Dispositivos de entrada</b> y salida como teclado, monitor, impresora o escáner, que permiten la interacción directa con el sistema y el aprovechamiento de sus funciones.
+        p.text-center(data-aos="fade-down") <b>Dispositivos de entrada</b> y salida como <b>teclado</b>, monitor, impresora o escáner, que permiten la interacción directa con el sistema y el aprovechamiento de sus funciones.
     
     .row.justify-content-center.mb-0
       .col-12
@@ -77,7 +77,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
       h2 2.2 Ventajas y desventajas de los modelos tradicionales
     
-    p.mb-5(data-aos="fade-down") Los modelos tradicionales de computación presentan una serie de beneficios que los hicieron dominantes durante décadas y que aún hoy resultan útiles en ciertos contextos:
+    p.mb-4(data-aos="fade-down") Los modelos tradicionales de computación presentan una serie de beneficios que los hicieron dominantes durante décadas y que aún hoy resultan útiles en ciertos contextos:
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12.order-lg-2.order-2
@@ -152,7 +152,7 @@
       .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b.d-flex.align-items-center.p-3.rounded
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
-            .col-lg-8(data-aos="flip-up")
+            .col-lg-11(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema2/img15.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
             .py-4
