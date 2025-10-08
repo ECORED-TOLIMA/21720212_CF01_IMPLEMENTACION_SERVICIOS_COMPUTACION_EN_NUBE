@@ -160,7 +160,7 @@
                 li.mb-0
                   i.fas.fa-cloud
                   | Cumplimiento de estándares internacionales, como ISO 27001 o NIST.
-          .col-lg-4.col-md-6.col-12.mb-3.order-lg-2.order-1.mb-lg-0.d-flex
+          .col-lg-4.col-md-6.col-12.mb-3.order-lg-2.order-1.mb-lg-0
             .row.justify-content-center
               .col
                 figure.h-100.w-100.m-0

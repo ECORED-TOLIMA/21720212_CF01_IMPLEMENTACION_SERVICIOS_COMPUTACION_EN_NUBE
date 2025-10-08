@@ -142,7 +142,7 @@
               .col-12
                 p.mb-0(data-aos="fade-down") En la práctica, el modelo tradicional se manifiesta en distintos escenarios cotidianos. A continuación, se presenta un ejemplo que describe cómo funciona este enfoque y cuáles son sus implicaciones en el trabajo diario:
                 
-          .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0.d-flex
+          .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure.h-100.w-100.m-0(data-aos="flip-up")
