@@ -13,7 +13,7 @@
           .col-lg-6.col-12.order-lg-2.order-2
             .tarjeta.tarjeta--C01.p-4
               p(data-aos="fade-down") La infraestructura de la nube es el conjunto de recursos físicos y virtuales que permiten ofrecer servicios informáticos a través de Internet. Su importancia radica en que transforma la manera en que empresas, instituciones y usuarios individuales acceden y gestionan datos, aplicaciones y plataformas digitales. Para comprender su funcionamiento, es necesario analizar los requisitos técnicos básicos, los componentes principales, las consideraciones de seguridad y la administración eficiente de recursos.
-          .col-lg-6.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0.d-flex
+          .col-lg-6.col-md-7.col-12.mb-4.order-lg-1.order-1.mb-lg-0.d-flex
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure.h-100.w-100.m-0(data-aos="flip-up")
@@ -31,52 +31,52 @@
       .col-lg-9
         SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-4
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img03.svg", alt="alt").img100.m-auto
             h4.titulo-1 Conexión a Internet de alta velocidad y redundante
             p.mb-0 Una infraestructura en la nube depende directamente de la conectividad. Por ello, se requiere una red de banda ancha con redundancia (enlaces de respaldo) para evitar caídas del servicio y garantizar continuidad.
           .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-4
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img04.svg", alt="alt").img100.m-auto
             h4.titulo-1 Centros de datos con sistemas de energía ininterrumpida y refrigeración avanzada
             p.mb-0 Estos elementos aseguran la operación constante de servidores y equipos de red, evitando fallos por cortes eléctricos o sobrecalentamiento.
           .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-4
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img05.svg", alt="alt").img100.m-auto
             h4.titulo-1 <em>Hardware</em> especializado
             p.mb-0 Se utilizan servidores de alto rendimiento, unidades de almacenamiento masivo y procesadores optimizados para manejar múltiples solicitudes de manera simultánea.
           .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-4
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img06.svg", alt="alt").img100.m-auto
             h4.titulo-1 Redes de comunicación robustas
             p.mb-0 El uso de <em>routers</em>, switches y equilibradores de carga permite distribuir el tráfico entre diferentes servidores, mejorando la eficiencia y reduciendo tiempos de respuesta.
           .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-4
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img07.svg", alt="alt").img100.m-auto
             h4.titulo-1 Tecnologías de virtualización
             p.mb-0 Herramientas como hipervisores y contenedores facilitan la creación de entornos virtuales, optimizando los recursos físicos y garantizando la flexibilidad para escalar según la demanda.
           .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-4
               .col-6.col-lg-8
                 img(src="@/assets/curso/temas/tema4/img08.svg", alt="alt").img100.m-auto
             h4.titulo-1 Sistemas de respaldo y seguridad
             p.mb-0 Copias de seguridad automáticas, cifrado de datos y <em>firewalls</em> especializados son fundamentales para proteger la información y mantener la integridad de los servicios
     
     
-    .row.justify-content-center.mb-0
-      .col-lg-11.col-12
+    .row.justify-content-center.mb-4
+      .col-lg-11
         .tarjeta.tarjeta--C02.p-4
           .row.justify-content-center
-            .col-lg-auto.col-2.order-lg-1.order-1
+            .col-lg-auto.col-2
               figure
                 img(src='@/assets/curso/temas/tema4/img09.svg', alt='Imagen decorativa')
-            .col-lg-10.col-9.order-lg-2.order-2
-              p(data-aos="fade-down") En el ámbito educativo, cumplir con estos requisitos es indispensable para asegurar que cientos o incluso miles de aprendices, estudiantes, instructores y docentes puedan acceder de manera simultánea a plataformas de formación virtual, videoconferencias, bibliotecas digitales o laboratorios remotos, sin interrupciones y con altos estándares de seguridad.
+            .col-lg-10.col-9
+              p.mb-0(data-aos="fade-down") En el ámbito educativo, cumplir con estos requisitos es indispensable para asegurar que cientos o incluso miles de aprendices, estudiantes, instructores y docentes puedan acceder de manera simultánea a plataformas de formación virtual, videoconferencias, bibliotecas digitales o laboratorios remotos, sin interrupciones y con altos estándares de seguridad.
 
     separador 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
@@ -87,31 +87,31 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--BG01.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema4/img10.svg' alt='AvatarTop')
           h4.text-center Servidores físicos y virtuales
           p Los servidores constituyen la base del procesamiento de datos, ejecución de aplicaciones y almacenamiento de bases de datos. Los entornos virtuales permiten optimizar recursos y atender de manera simultánea múltiples solicitudes de usuarios.
         .tarjeta.tarjeta--BG01.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
           h4.text-center Redes
           p Incluyen equipos físicos como <em>routers</em> y switches, así como redes definidas por <em>software</em> (SDN), que proporcionan conexiones seguras, rápidas y gestionables de forma centralizada, incluso a nivel global.
         .tarjeta.tarjeta--BG01.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema4/img12.svg' alt='AvatarTop')
           h4.text-center Sistemas de almacenamiento
           p Se ofrecen diferentes modalidades como almacenamiento en bloques, en archivos o en objetos, lo que brinda escalabilidad y flexibilidad según las necesidades de cada organización o aplicación.
         .tarjeta.tarjeta--BG01.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema4/img13.svg' alt='AvatarTop')
           h4.text-center Plataformas de gestión y automatización
           p Herramientas que permiten monitorear, administrar y desplegar recursos en la nube de manera eficiente. También facilitan la automatización de procesos, reduciendo tiempos y errores en la operación.
         .tarjeta.tarjeta--BG01.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema4/img14.svg' alt='AvatarTop')
           h4.text-center Infraestructura del centro de datos
@@ -126,7 +126,7 @@
               img(src='@/assets/curso/temas/tema4/img15.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
             .px-2.py-3
-              p En el ámbito educativo, por ejemplo, instituciones como el SENA requieren de esta infraestructura para sostener plataformas de formación virtual, videoconferencias, sistemas de gestión del aprendizaje y simuladores especializados, asegurando que los aprendices accedan sin interrupciones a los contenidos y herramientas de aprendizaje.
+              p.mb-0 En el ámbito educativo, por ejemplo, instituciones como el SENA requieren de esta infraestructura para sostener plataformas de formación virtual, videoconferencias, sistemas de gestión del aprendizaje y simuladores especializados, asegurando que los aprendices accedan sin interrupciones a los contenidos y herramientas de aprendizaje.
 
     separador 
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
@@ -135,7 +135,7 @@
     .row.justify-content-center.mb-0
       .col-12
         .row.justify-content-center.mb-5
-          .col-lg-8.col-12.order-lg-1.order-2
+          .col-lg-9.order-lg-1.order-2
             p.mb-4(data-aos="fade-down") La seguridad constituye uno de los pilares más relevantes en la adopción de la nube, ya que busca garantizar la confidencialidad, integridad y disponibilidad de los datos. Las organizaciones deben aplicar un conjunto de medidas preventivas y correctivas que minimicen riesgos y aseguren la continuidad de los servicios. Entre las prácticas más comunes se encuentran:
             .tarjeta.tarjeta--C01.p-4
               ul.lista-ul--color.mb-0(data-aos="fade-down")
@@ -160,11 +160,9 @@
                 li.mb-0
                   i.fas.fa-cloud
                   | Cumplimiento de estándares internacionales, como ISO 27001 o NIST.
-          .col-lg-4.col-md-6.col-12.mb-3.order-lg-2.order-1.mb-lg-0
-            .row.justify-content-center
-              .col
-                figure.h-100.w-100.m-0
-                  img.object-fit-cover(src='@/assets/curso/temas/tema4/img16.png', alt='Imagen decorativa')
+          .col-lg-3.col-6.mb-4.order-lg-2.order-1.mb-lg-0
+            figure
+              img.object-fit-cover(src='@/assets/curso/temas/tema4/img16.png', alt='Imagen decorativa')
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
       .col-lg-10.col-12
@@ -205,7 +203,7 @@
                   img(src='@/assets/curso/temas/tema4/img18.svg' alt="Imagen decorativa")(style= "width: 100%")
               .tarjeta.tarjeta--C03
                 .px-2.py-3
-                  p En el SENA, la implementación de la nube implica proteger datos académicos, resultados de evidencias y la información personal de aprendices e instructores. Para ello, se aplican controles de acceso con autenticación multifactor, políticas de privilegio mínimo en las plataformas educativas y planes de recuperación ante incidentes. De esta manera, se garantiza la continuidad del aprendizaje virtual, evitando filtraciones o manipulaciones indebidas de la información institucional.
+                  p.mb-0 En el SENA, la implementación de la nube implica proteger datos académicos, resultados de evidencias y la información personal de aprendices e instructores. Para ello, se aplican controles de acceso con autenticación multifactor, políticas de privilegio mínimo en las plataformas educativas y planes de recuperación ante incidentes. De esta manera, se garantiza la continuidad del aprendizaje virtual, evitando filtraciones o manipulaciones indebidas de la información institucional.
     separador 
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up") 
       h2 4.4 Administración y optimización de recursos
@@ -258,7 +256,7 @@
               img(src='@/assets/curso/temas/tema4/img21.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
             .px-0.py-4
-              p Durante los procesos de inscripción en el SENA, miles de aprendices acceden simultáneamente a las plataformas virtuales. Gracias a la escalabilidad automática y al monitoreo constante de recursos, es posible evitar caídas del sistema y garantizar un acceso fluido. Además, mediante políticas de respaldo y auditorías de consumo, se optimizan los costos operativos, asegurando que los recursos tecnológicos estén disponibles justo cuando más se necesitan.
+              p.mb-0 Durante los procesos de inscripción en el SENA, miles de aprendices acceden simultáneamente a las plataformas virtuales. Gracias a la escalabilidad automática y al monitoreo constante de recursos, es posible evitar caídas del sistema y garantizar un acceso fluido. Además, mediante políticas de respaldo y auditorías de consumo, se optimizan los costos operativos, asegurando que los recursos tecnológicos estén disponibles justo cuando más se necesitan.
 
 </template>
 

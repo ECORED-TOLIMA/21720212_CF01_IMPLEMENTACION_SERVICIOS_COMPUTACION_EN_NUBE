@@ -7,7 +7,7 @@
         span 2
       h1 Modelos tradicionales de computación
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img01.jpg')})`}"
       )
@@ -21,10 +21,10 @@
     .row.justify-content-center.mb-5
       .col-12
         .row.justify-content-center
-          .col-lg-9.col-12.order-lg-2.order-2
+          .col-lg-9.order-lg-1.order-2
             p(data-aos="fade-down") La infraestructura de modelos tradicionales se basa en el uso de equipos y recursos físicos instalados de manera local, generalmente en las instalaciones de una organización, institución educativa o incluso en los hogares. Este modelo ha sido la base de la informática durante muchos años, ya que permite a los usuarios tener un control directo sobre sus dispositivos y la información que gestionan.
             p.mb-0(data-aos="fade-down") En este esquema, los recursos tecnológicos dependen de la adquisición, instalación y mantenimiento de <em>hardware</em>, así como de la actualización constante de <em>software</em>. Cada equipo cuenta con componentes esenciales que garantizan su funcionamiento:
-          .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
+          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
             .row.justify-content-center
               .col(data-aos="flip-up")
                 figure
@@ -32,28 +32,28 @@
     
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema2/img03.svg' alt='AvatarTop')
-        p.text-center(data-aos="fade-down") <b>Procesador</b> encargado de ejecutar instrucciones y operaciones, siendo el núcleo que determina la velocidad y capacidad de respuesta del sistema.
+        p.text-center.mb-0(data-aos="fade-down") <b>Procesador</b> encargado de ejecutar instrucciones y operaciones, siendo el núcleo que determina la velocidad y capacidad de respuesta del sistema.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema2/img04.svg' alt='AvatarTop')
-        p.text-center(data-aos="fade-down") <b>Memoria</b> utilizada para almacenar temporalmente datos y programas en ejecución, lo que permite que las aplicaciones funcionen de manera fluida.
+        p.text-center.mb-0(data-aos="fade-down") <b>Memoria</b> utilizada para almacenar temporalmente datos y programas en ejecución, lo que permite que las aplicaciones funcionen de manera fluida.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema2/img05.svg' alt='AvatarTop')
-        p.text-center(data-aos="fade-down") <b>Disco duro</b> destinado al almacenamiento permanente de información y <em>software</em>, ofreciendo acceso a los archivos y programas aún después de apagar el equipo.
+        p.text-center.mb-0(data-aos="fade-down") <b>Disco duro</b> destinado al almacenamiento permanente de información y <em>software</em>, ofreciendo acceso a los archivos y programas aún después de apagar el equipo.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema2/img06.svg' alt='AvatarTop')
-        p.text-center(data-aos="fade-down") <b>Dispositivos de entrada y salida</b> como teclado, monitor, impresora o escáner, que permiten la interacción directa con el sistema y el aprovechamiento de sus funciones.
+        p.text-center.mb-0(data-aos="fade-down") <b>Dispositivos de entrada y salida</b> como teclado, monitor, impresora o escáner, que permiten la interacción directa con el sistema y el aprovechamiento de sus funciones.
     
     .row.justify-content-center.mb-0
       .col-12
@@ -68,7 +68,7 @@
                 .col-lg-10.col-10
                   p.mb-0(data-aos="fade-down") Estas características explican por qué los modelos tradicionales, si bien fueron fundamentales para el desarrollo inicial de la informática, han ido evolucionando hacia esquemas más flexibles y económicos, como la computación en la nube.
                 
-          .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0.d-flex
+          .col-lg-4.col-md-7.col-12.mb-4.order-lg-1.order-1.mb-lg-0.d-flex
             .row.justify-content-center(data-aos="fade-up")
               .col
                 figure.h-100.w-100.m-0(data-aos="fade-up")
@@ -142,7 +142,7 @@
               .col-12
                 p.mb-0(data-aos="fade-down") En la práctica, el modelo tradicional se manifiesta en distintos escenarios cotidianos. A continuación, se presenta un ejemplo que describe cómo funciona este enfoque y cuáles son sus implicaciones en el trabajo diario:
                 
-          .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
+          .col-lg-3.col-md-7.col-12.mb-4.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure.h-100.w-100.m-0(data-aos="flip-up")

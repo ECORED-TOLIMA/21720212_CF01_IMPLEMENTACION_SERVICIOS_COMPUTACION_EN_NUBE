@@ -289,7 +289,7 @@
               img(src='@/assets/curso/temas/tema3/img24.svg' alt="Imagen decorativa")(style= "width: 100%")
           .tarjeta.tarjeta--C03
             .px-2.py-3
-              p El SENA podría implementar una nube híbrida para alojar sus plataformas de formación virtual. En este modelo, los datos sensibles relacionados con la gestión académica, matrículas y evaluaciones se mantendrían en una nube privada, garantizando control y seguridad. Al mismo tiempo, los contenidos de aprendizaje, como videos, foros o actividades interactivas, podrían alojarse en una nube pública, lo que permitiría un acceso masivo, flexible y con menor costo de almacenamiento. De esta manera, la institución optimizaría sus recursos, protegería la información confidencial de los aprendices y aseguraría la continuidad de sus servicios educativos en todo el país.
+              p.mb-0 El SENA podría implementar una nube híbrida para alojar sus plataformas de formación virtual. En este modelo, los datos sensibles relacionados con la gestión académica, matrículas y evaluaciones se mantendrían en una nube privada, garantizando control y seguridad. Al mismo tiempo, los contenidos de aprendizaje, como videos, foros o actividades interactivas, podrían alojarse en una nube pública, lo que permitiría un acceso masivo, flexible y con menor costo de almacenamiento. De esta manera, la institución optimizaría sus recursos, protegería la información confidencial de los aprendices y aseguraría la continuidad de sus servicios educativos en todo el país.
 </template>
 
 <script>

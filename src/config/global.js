@@ -4,7 +4,6 @@ export default {
     descripcionCurso:
       'Este componente aborda las características de la computación en la nube, sus modelos tradicionales y de despliegue, así como la infraestructura que la soporta. El aprendiz reconoce la evolución histórica, la escalabilidad, la flexibilidad y los requisitos técnicos, comprendiendo también las consideraciones de seguridad y la administración de recursos en diferentes entornos de nube.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
